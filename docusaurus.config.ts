@@ -32,7 +32,8 @@ const config: Config = {
       'classic',
       {
         docs: {
-          sidebarPath: './sidebars.ts'          
+          sidebarPath: './sidebars.ts',
+          routeBasePath: '/'          
         },
         blog: {
           showReadingTime: true,
@@ -58,7 +59,7 @@ const config: Config = {
       title: 'URBN Resident\'s',
       logo: {
         alt: 'site Logo',
-        src: 'img/logo.svg',
+        src: 'img/icon.png',
       },
       items: [
         {
